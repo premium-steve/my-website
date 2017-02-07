@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout/default">
+<head lang="en">
+    <title></title>
+</head>
+<body>
+<div th:class="row" layout:fragment="content">
+
+    <div th:class="'col s10 offset-s1'">
+        <span th:class="flow-text">
+            <h3>About Me</h3>
+            <p th:class="html-editor-align-justify">
+                I was born in Camden NSW and grew up on the mean streets of Woodridge QLD,
+                and I’ve been working in Brisbane as a Software Engineer for over 6 years.
+                When I’m not at work, I have various other interests such as hanging out
+                with my daughter, brewing beer and mead, playing my guitar, growing herbs
+                and vegetables in my and messing about with my commodore 64
+                (ok, it’s an emulator but I’m old enough that I grew up with one).
+            </p>
+
+            <p>
+                As a software engineer, I’ve had various roles including developing
+                enhancements for government and private clients, providing 24 hour support
+                for mission critical applications, and boring stuff like re-enabling users
+                whom I’ve previously been asked to disable.
+            </p>
+
+            <p>
+                My passion is in open source, and as such, most of my personal and
+                professional development is with Java and Scala. I also occasionally
+                contribute to Stack Overflow and plan to contribute to other open
+                source projects.
+            </p>
+            <h3>About this site</h3>
+            <p>
+                I chose the name ‘Keep Surprising Yourself’ because that’s the message
+                that I try to tell myself everyday. I wanted to come up with a name that
+                would be somewhat inspiring to others but something personal that meant
+                something to me and not some tacky generic inspiring message. I think the
+                thought we all get from time to time is how to become the person that we
+                want to be, and for me it was all about the little achievements I’d made
+                when I actually tried something I’d initially thought was too hard and
+                the random acts of kindness I’d performed occasionally. Not outlandish
+                stuff, but just little things that had made a difference in mine or the
+                life of someone else. I’d surprised myself at the feeling of achievement
+                or fulfilment at these little things, so I chose this name to remind me
+                to keep surprising myself.
+            </p>
+        </span>
+    </div>
+
+</div>
+</body>
+</html>

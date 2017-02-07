@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout/default">
+<head lang="en">
+    <title></title>
+</head>
+<body>
+<div th:class="row" layout:fragment="content">
+
+    <div th:class="'col s10 offset-s1'">
+        <span th:class="flow-text">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="/images/carousel/IMG_1042.JPG"/></a>
+                <a class="carousel-item" href="#two!"><img src="/images/carousel/IMG_1054.JPG"/></a>
+                <a class="carousel-item" href="#three!"><img src="/images/carousel/IMG_1225.JPG"/></a>
+                <a class="carousel-item" href="#four!"><img src="/images/carousel/IMG_1326.JPG"/></a>
+                <a class="carousel-item" href="#five!"><img src="/images/carousel/IMG_1555.JPG"/></a>
+                <a class="carousel-item" href="#six!"><img src="/images/carousel/IMG_1608.JPG"/></a>
+                <a class="carousel-item" href="#seven!"><img src="/images/carousel/IMG_1825.JPG"/></a>
+                <a class="carousel-item" href="#eight!"><img src="/images/carousel/IMG_2179.JPG"/></a>
+            </div>
+            <p>
+                Hi. I’m Steve Henderson: software engineer, beer brewer, mead maker, vegetable grower,
+                novice cyclist, former snooker player and proud dad.
+            </p>
+            <ul class="home-ul" style="list-style-type:disc;">
+                <li class="home-li">To find out more about me and this site, check out the <a th:href="@{/about}">About</a> page</li>
+                <li class="home-li">For more on the projects I’m currently working on, have worked on, and that are
+                    in the pipeline, check out the <a th:href="@{/projects}">Projects</a> page</li>
+            </ul>
+        </span>
+    </div>
+
+</div>
+</body>
+</html>

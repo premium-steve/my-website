@@ -1,0 +1,21 @@
+p {
+    text-align: justify;
+}
+
+.home-ul {
+    list-style-type: disc;
+}
+
+.home-li {
+    list-style-type: disc;
+}
+
+.collapsible-body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.projects-list-item {
+    /* want to override materialize .collapsible.popout>li */
+    margin-bottom: 10px !important;
+}

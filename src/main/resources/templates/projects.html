@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout/default">
+<head lang="en">
+    <title></title>
+</head>
+<body>
+<div class="row" layout:fragment="content">
+
+    <div class="col s10 offset-s1">
+        <span class="flow-text">
+            <h3>Projects</h3>
+            <p th:class="html-editor-align-justify">
+                This page is where I’ll be keeping my projects. This will include
+                projects I’ve completed, projects on the go as well as ideas I have
+                for future projects. It will also include my non-IT related projects
+                such as my keg fridge, garden and arcade shelf :)
+            </p>
+
+            <p th:class="html-editor-align-justify">
+                Bear with me for the moment as I’m just getting this website off the
+                ground but I will be continually and regularly updating it.
+            </p>
+
+            <h3>IT Projects</h3>
+            <ul class="collapsible popout" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header teal"><i class="material-icons">games</i>Chore/task display</div>
+                    <div class="collapsible-body teal lighten-4">
+                        <span>
+                            First on my to-do list is an application to track the chores for my daughter.
+                            I'm still designing this app at the moment but when I start coding, I'll add
+                            a link to my github repository.
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header teal"><i class="material-icons">games</i>Book catalogue</div>
+                    <div class="collapsible-body teal lighten-4">
+                        <span>
+                            My daughter also wants an application to keep track of the books she has and
+                            the books she has read.
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header teal"><i class="material-icons">games</i>Street Fighter clone</div>
+                    <div class="collapsible-body teal lighten-4">
+                        <span>
+                            One of my favourite arcade games when I was growing up was Street Fighter 2.
+                            (This was actually the motivation for my arcade shelf)
+                            So I've decided I will make a Street Fighter clone, probably in Unity - which
+                            means I need to learn Unity :) . This is more a long term project, but I expect
+                            to start it before June this year.
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header teal"><i class="material-icons">games</i> This Website</div>
+                    <div class="collapsible-body teal lighten-4">
+                        <span>
+                            I wanted to also put something on here about this site, even though it
+                            is mostly finished. But is the first of these little projects I've
+                            done, and I will be updating from time to time.
+                        </span>
+                    </div>
+                </li>
+            </ul>
+            <h3>Other Projects</h3>
+            <ul class="collapsible popout" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header indigo lighten-1"><i class="material-icons">games</i>Homebrew/Beer Fridge</div>
+                    <div class="collapsible-body indigo lighten-4">
+                        <span>
+                            Putting these two together as they are related. I converted
+                            an old fridge into a kegerator last year but still a few bits
+                            and pieces to go. And also plan on going all grain this year
+                            too, but still need to get a few things. Once that is set up,
+                            I will start adding beers here as I make them
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header indigo lighten-1"><i class="material-icons">games</i>Cheesemaking</div>
+                    <div class="collapsible-body indigo lighten-4">
+                        <span>
+                            As part of the upgrade to my beer setup, I bought a small
+                            fridge to use as a fermentation chamber. But this fridge sits
+                            idle a lot of the time so I have decided I will start making cheese.
+                            I'll update this space when I begin that adventure
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header indigo lighten-1"><i class="material-icons">games</i>Arcade Cabinet/Shelf</div>
+                    <div class="collapsible-body indigo lighten-4">
+                        <span>
+                            On my last annual leave, I took some time to make an arcade cabinet.
+                            Well, I use the term 'cabinet' in its loosest possible form. I ended
+                            up running out of time and just attaching all the buttons and joysticks
+                            to a shelf, hooking it all up and calling it a day :) I plan on
+                            finishing the job I started, but this is currently a low priority.
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header indigo lighten-1"><i class="material-icons">games</i>Herb and Vege Garden</div>
+                    <div class="collapsible-body indigo lighten-4">
+                        <span>
+                            I've dabbled occasionally in growing some veges and herbs, and they have
+                            mostly been a success, but I've previously treated this sort of thing
+                            as a goal to reach rather than habit. So I've decided now to make this a
+                            regular/permanent thing. Will update this item as things start growing.
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header indigo lighten-1"><i class="material-icons">games</i>Cycling</div>
+                    <div class="collapsible-body indigo lighten-4">
+                        <span>
+                            As I mentioned on my About page, I am a novice but regular cyclist.
+                            I'll update this item with events and fund-raisers that I am
+                            participating in.
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </span>
+    </div>
+
+</div>
+</body>
+</html>
